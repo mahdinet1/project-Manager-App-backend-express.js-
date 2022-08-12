@@ -1,0 +1,32 @@
+{
+    "name": "project-manager-train",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "type": "commonjs",
+    "scripts": {
+        "start": "nodemon node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mahdinet1/project-Manager-App-backend-express.js-.git"
+    },
+    "keywords": [
+        "nodejs",
+        "express",
+        "backend"
+    ],
+    "author": "mahdi zeynali",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mahdinet1/project-Manager-App-backend-express.js-/issues"
+    },
+    "homepage": "https://github.com/mahdinet1/project-Manager-App-backend-express.js-#readme",
+    "dependencies": {
+        "express": "^4.18.1",
+        "mongoose": "^6.5.2"
+    }
+}
