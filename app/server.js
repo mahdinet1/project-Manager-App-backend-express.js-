@@ -12,9 +12,10 @@ module.exports = class Server {
     }
     configApp() {
         const path = require("path");
+        this.#app.use(express.static(path.join(__dirname, "..", "public")));
         this.#app.use(express.json());
         this.#app.use(express.urlencoded({ extended: true }));
-        this.#app.use(express.static(path.join(__dirname, "../", "public")));
+        
     }
     configDb(DB_URL) {
         mongoose.connect(DB_URL, (err) => {
